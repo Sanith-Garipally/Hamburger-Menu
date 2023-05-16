@@ -1,0 +1,91 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  border-bottom: 1px solid #dcdcdc;
+  width: 100%;
+}
+.nav-items-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 25px;
+  height: 25px;
+}
+.hamburger-menu-icon {
+  height: 50px;
+  height: 50px;
+}
+.trigger-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: inherit;
+}
+.trigger-close-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: inherit;
+}
+.modal-container {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+}
+.model-btn-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 50px;
+}
+.links-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 50%;
+  padding: 0;
+  list-style-type: none;
+}
+.close-icon {
+  width: 20px;
+  height: 20px;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.link-home-container {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.link-about-container {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.home-para {
+  margin: 0;
+}
+.ha-icon {
+  margin-right: 5px;
+}
+@media screen and (min-width: 768px) {
+  .navbar {
+    height: 80px;
+  }
+  .nav-items-container {
+    width: 80%;
+  }
+  .logo {
+    width: 35px;
+    height: 35px;
+  }
+}

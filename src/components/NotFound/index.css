@@ -1,0 +1,21 @@
+.nf-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.nf-img {
+  width: 60%;
+  max-width: 300px;
+}
+.nf-head {
+  font-weight: bold;
+  text-align: center;
+}
+.nf-para {
+  color: #616e7c;
+  font-weight: 400;
+  text-align: center;
+}

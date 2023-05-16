@@ -1,0 +1,21 @@
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.lg-about-img {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .sm-about-img {
+    display: none;
+  }
+
+  .lg-about-img {
+    display: flex;
+    width: 60%;
+  }
+}
